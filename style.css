@@ -68,7 +68,9 @@ body{
 }
 
 .search-box button{
-    width:150px;
+    width:auto;
+    min-width:150px;
+    padding:0 25px;
     flex-shrink:0;
     height:80%;
     margin-right:8px;
@@ -208,7 +210,9 @@ body{
         padding:0 10px;
     }
     .search-box button{
-        width:120px;
+        width:auto;
+        min-width:0;
+        padding:0 18px;
         font-size:18px;
     }
 
